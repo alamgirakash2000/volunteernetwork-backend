@@ -3,8 +3,9 @@ import mongoose from "mongoose";
 const instance = mongoose.Schema({
   username: String,
   email: String,
-  category: String,
+  category: Object,
   date: Date,
+  img: String,
   description: String,
 });
 
